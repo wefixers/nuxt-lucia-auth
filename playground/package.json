@@ -1,0 +1,20 @@
+{
+  "name": "@fixers/nuxt-lucia-auth-playground",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate"
+  },
+  "dependencies": {
+    "@lucia-auth/adapter-prisma": "^4.0.1",
+    "@prisma/client": "5.14.0",
+    "lucia": "^3.2.0",
+    "nuxt": "^3.11.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "prisma": "^5.14.0"
+  }
+}

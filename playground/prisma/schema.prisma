@@ -1,0 +1,52 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id       String  @id
+  username String  @unique
+  name     String?
+
+  credentials          Credentials?
+  accounts             Account[]
+  sessions             Session[]
+  impersonatedSessions Session[]    @relation("Actor")
+}
+
+model Credentials {
+  id       String @id
+  password String
+  user     User   @relation(references: [id], fields: [id], onDelete: Cascade)
+}
+
+model Account {
+  userId            String
+  providerId        String
+  providerAccountId String
+
+  accessToken          String?
+  refreshToken         String?
+  accessTokenExpiresAt DateTime?
+  idToken              String?
+
+  scope        String?
+  sessionState String?
+
+  user User @relation(references: [id], fields: [userId], onDelete: Cascade)
+
+  @@id([providerId, providerAccountId])
+}
+
+model Session {
+  id        String   @id
+  actorId   String?
+  userId    String
+  expiresAt DateTime
+  user      User     @relation(references: [id], fields: [userId], onDelete: Cascade)
+  actor     User?    @relation("Actor", references: [id], fields: [actorId], onDelete: SetNull)
+}
