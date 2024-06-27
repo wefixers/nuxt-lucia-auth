@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.2
+
+[compare changes](https://github.com/wefixers/nuxt-lucia-auth/compare/v0.0.1...v0.0.2)
+
+### 🤖 CI
+
+- Run prepare before publish ([11e292d](https://github.com/wefixers/nuxt-lucia-auth/commit/11e292d))
+
+### ❤️ Contributors
+
+- Lucacicada ([@lucacicada](http://github.com/lucacicada))
+
 ## v0.0.1
 
 
