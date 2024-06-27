@@ -1,10 +1,17 @@
 {
   "name": "@fixers/nuxt-lucia-auth",
   "type": "module",
-  "version": "1.0.0",
-  "description": "My new Nuxt module",
+  "version": "0.0.0",
+  "description": "Nuxt Auth module with Lucia",
+  "author": "Luca <git@lucacicada.me>",
   "license": "MIT",
-  "repository": "wefixers/nuxt-lucia-auth",
+  "repository": "https://github.com/wefixers/nuxt-lucia-auth",
+  "keywords": [
+    "nuxt",
+    "auth",
+    "lucia",
+    "session"
+  ],
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
