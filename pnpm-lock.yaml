@@ -14,6 +14,9 @@ importers:
       arctic:
         specifier: ^1.9.1
         version: 1.9.1
+      defu:
+        specifier: ^6.1.4
+        version: 6.1.4
       lucia:
         specifier: ^3.2.0
         version: 3.2.0
