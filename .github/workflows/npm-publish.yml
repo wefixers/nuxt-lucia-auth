@@ -24,6 +24,7 @@ jobs:
           run_install: |
             - args: [--frozen-lockfile]
 
+      - run: npm run dev:prepare
       - run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
