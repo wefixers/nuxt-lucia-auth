@@ -1,7 +1,7 @@
 {
   "name": "@fixers/nuxt-lucia-auth",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Nuxt Auth module with Lucia",
   "author": "Luca <git@lucacicada.me>",
   "license": "MIT",
