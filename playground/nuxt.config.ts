@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   modules: ['../src/module'],
   app: {
     head: {
-      title: 'Nuxt - Lucia Auth',
+      title: 'Nuxt Auth',
     },
   },
   devtools: {

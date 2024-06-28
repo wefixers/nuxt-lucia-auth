@@ -1,0 +1,40 @@
+title: 'Nuxt Auth'
+description: Nuxt Auth is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+navigation: false
+hero:
+  title: '<span class="text-primary-400">Nuxt Auth</span><br>Authentication for Nuxt'
+  description: 'Nuxt Auth is a powerful and flexible authentication based on Lucia for Nuxt!'
+  links:
+    - label: 'Get Started'
+      icon: 'i-ph-rocket-launch-duotone'
+      color: 'primary'
+      to: '/getting-started'
+      size: xl
+  code: |
+    ```bash [Terminal]
+    pnpm add @fixers/nuxt-lucia-auth
+    ```
+features:
+  title: 'Auth your way'
+  links:
+    - label: 'Get Started'
+      icon: 'i-ph-rocket-launch-duotone'
+      color: 'primary'
+      to: '/getting-started'
+      size: xl
+  items:
+    - title: 'Nuxt 3'
+      description: 'Powered by Lucia'
+      icon: 'i-heroicons-lock-closed'
+      to: '/getting-started'
+      target: '_blank'
+    - title: 'Nuxt 3'
+      description: 'Powered by Lucia'
+      icon: 'i-heroicons-lock-closed'
+      to: '/getting-started'
+      target: '_blank'
+    - title: 'Nuxt 3'
+      description: 'Powered by Lucia'
+      icon: 'i-heroicons-lock-closed'
+      to: '/getting-started'
+      target: '_blank'
