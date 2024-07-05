@@ -7,7 +7,7 @@
 
 Authentication for Nuxt with Lucia.
 
-- [📖 &nbsp;Read Documentation](nuxt-auth.fixers.dev/)
+- [📖 &nbsp;Read Documentation](https://nuxt-auth.fixers.dev)
 
 ## Features
 
